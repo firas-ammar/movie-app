@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/movie-app/static/css/main.3bed136b.chunk.css",
+    "main.js": "/movie-app/static/js/main.72790459.chunk.js",
+    "main.js.map": "/movie-app/static/js/main.72790459.chunk.js.map",
+    "runtime~main.js": "/movie-app/static/js/runtime~main.daf19b24.js",
+    "runtime~main.js.map": "/movie-app/static/js/runtime~main.daf19b24.js.map",
+    "static/css/2.84e773a1.chunk.css": "/movie-app/static/css/2.84e773a1.chunk.css",
+    "static/js/2.c13e3da4.chunk.js": "/movie-app/static/js/2.c13e3da4.chunk.js",
+    "static/js/2.c13e3da4.chunk.js.map": "/movie-app/static/js/2.c13e3da4.chunk.js.map",
+    "index.html": "/movie-app/index.html",
+    "precache-manifest.50644589234b307c7d6041638407e1e4.js": "/movie-app/precache-manifest.50644589234b307c7d6041638407e1e4.js",
+    "service-worker.js": "/movie-app/service-worker.js",
+    "static/css/2.84e773a1.chunk.css.map": "/movie-app/static/css/2.84e773a1.chunk.css.map",
+    "static/css/main.3bed136b.chunk.css.map": "/movie-app/static/css/main.3bed136b.chunk.css.map",
+    "static/media/mdb.css": "/movie-app/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/movie-app/static/media/fa-solid-900.f14c3b2f.ttf",
+    "static/media/menblack.jpg": "/movie-app/static/media/menblack.ed8d3abb.jpg",
+    "static/media/ninja.jpg": "/movie-app/static/media/ninja.258c1dd3.jpg",
+    "static/media/wick.jpg": "/movie-app/static/media/wick.1bdbe889.jpg"
+  }
+}
