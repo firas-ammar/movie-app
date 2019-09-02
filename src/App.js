@@ -20,8 +20,12 @@ class App extends Component {
       x:tablist,
       value:1,
       titre:'',
+      isLoading: true,
     }
   }
+  componentDidMount(){
+    setTimeout(()=>this.setState({isLoading: false}), 3000)
+      }
 
   changeRatingHandler = (rating)=>{
     this.setState({
@@ -29,14 +33,8 @@ class App extends Component {
     })
   }
 
-  //Handler to send to search component 
     titleFilter = (event)=>{
-      //event tab3a l'evenement declanchee ya3ni l valeur chikoun li hattitou fi input
-      //ijibou mel compnent search khater l fonction hethi t3addet ka props(reference)
-      // l search component
       let strToSearch = event.target.value;
-      // chibaddal estate titre bel valeur li jebha jdida
-      // w meme lvaleur mta
       this.setState({
         titre : strToSearch.toLowerCase()
       })
@@ -51,7 +49,7 @@ class App extends Component {
      <Star RatingHandler={this.changeRatingHandler}/>
      </div>
      
-     <Moviecard x={tablist.filter( el=> 
+     <Moviecard loading={this.state.isLoading} x={tablist.filter( el=> 
                                         el.rating >= this.state.value && 
                 el.titre.toLowerCase().includes(this.state.titre.toLowerCase()))} />
     </div>

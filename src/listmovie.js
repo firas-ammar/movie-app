@@ -5,7 +5,7 @@ import { wrap } from 'module';
 import { MDBRow, MDBCol, MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardFooter,  MDBTooltip } from "mdbreact";
 import StarRatingComponent from 'react-star-rating-component';
 import Demo from './carousel';
-
+import LoadingHOC from './compoHOC'
 
 
 const Moviecard = ({ x }) => {
@@ -60,4 +60,4 @@ const Moviecard = ({ x }) => {
 
     )
 }
-export default Moviecard;
+export default LoadingHOC(Moviecard);
