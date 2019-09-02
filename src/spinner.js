@@ -7,5 +7,8 @@ const SpinnerPage = () => {
       </div>
   );
 }
-// nessrine commit to test the spinner
+
+// nessrine commit1 to test the spinner
+// nessrine commit2 to test the spinner
+// nessrine commit3 to test the spinner
 export default SpinnerPage;
