@@ -2,7 +2,7 @@
   "name": "movie-appli",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://firas-ammar.github.io/movie-app/",
+  "homepage": "https://firas-ammar.github.io/spinnerHOC/",
   "dependencies": {
     "@material-ui/core": "^4.4.0",
     "@material-ui/icons": "^4.2.1",
