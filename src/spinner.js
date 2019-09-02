@@ -7,5 +7,5 @@ const SpinnerPage = () => {
       </div>
   );
 }
-
+// nessrine commit to test the spinner
 export default SpinnerPage;
